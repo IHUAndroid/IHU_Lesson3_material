@@ -7,6 +7,8 @@ In lesson 2, we implemented the connection with the remote Weather Rest API and 
 
 In this lesson we will dive into the process of JSON Parsing and the implementation of the communitcation between different App screens
 
+_**But first we are going to make a short deviation to explain the Git workflow.**_
+
 --------------------------------
 
 ##JSON Parsing##
