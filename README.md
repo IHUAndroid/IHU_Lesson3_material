@@ -343,19 +343,20 @@ We will begin with a simple [Toast (like a popup message box)](https://developer
 
 As you will see, we create the listener anonymously for code simplicity. So, with this temporary ```toaster``` solution, the correct function of the listener will be tested.
 
+Initially, only this short portion of code is enough for the listener. This block displays a Toaster every time a list item is tapped:
 
 ```
  listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                final String item = mForecastAdapter.getItem(position);
-                Intent intent = new Intent(getActivity(), DetailActivity.class);
-                intent.putExtra(Intent.EXTRA_TEXT, item);
-                startActivity(intent);
+                final String Item = adapter.getItem(position);
+                //Intent intent = new Intent(getActivity(),)
 
+                Toast toast = Toast.makeText(getActivity(), Item, Toast.LENGTH_LONG);
+                toast.show();
             }
         });
-
 ```
 
 Now that we are sure that tapping event actually works, lets move to the creation of the second Activity. 
@@ -470,6 +471,29 @@ And the fragment_detail.xml
 
 ## Intents
 
-Intents form the main way of communication between activities and are divided in *Explicit* and *Implicit*
+Intents form the main way of communication between activities and are divided in **Explicit** and **Implicit**
 We will now focus on Explicit Intents
+
+You can think of Intent as a small POST box that we use to send packages to other people via post office. 
+We place the item inside the package, we close it and we write the delivery address on the package.
+
+Upon deliver, the receiver gets the package, opens it and retrieves the item from inside. 
+
+__This is the EXPLICIT Intent__
+
+Below, follows the modification of ```setOnItemClickListener``` in order to send data to ```DetailActivity``` class via an Explicit Intent
+
+```
+ listView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                final String item = mForecastAdapter.getItem(position);
+                Intent intent = new Intent(getActivity(), DetailActivity.class);
+                intent.putExtra(Intent.EXTRA_TEXT, item);
+                startActivity(intent);
+
+            }
+        });
+
+```
 
