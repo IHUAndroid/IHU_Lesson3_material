@@ -12,8 +12,8 @@ In this lesson we will dive into the process of JSON Parsing and the implementat
 ##JSON Parsing##
 
 Quiz: Parse Out The Max Temp
-https://classroom.udacity.com/courses/ud853/lessons/1469948762/concepts/16307786410923#
 
+https://www.youtube.com/watch?v=sBjKvpkYYF4
 
 ```
 package com.example.android.sunshine.app;
