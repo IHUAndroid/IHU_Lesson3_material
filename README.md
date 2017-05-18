@@ -1,9 +1,11 @@
+
+
 # IHU_Lesson3_material
 
 ### Recap:
 In lesson 2, we implemented the connection with the remote Weather Rest API and the retrieval of weather data.
 
-In this lesson we will deep into the 
+In this lesson we will dive into the process of JSON Parsing and the implementation of the communitcation between different App screens
 
 --------------------------------
 
