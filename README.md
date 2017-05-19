@@ -499,3 +499,4 @@ Below, follows the modification of ```setOnItemClickListener``` in order to send
 
 ```
 
+That's all for lesson 3 !
