@@ -337,6 +337,11 @@ public class ForecastFragment extends Fragment {
 
 ```
 
+That's all for lesson 3 !
+
+## End of lesson 3
+
+
 ## Second Screen (Activity)
 
 We will now add a second screen - activity which will present the weather data of a specific day that was tapped on the forecast list view. 
@@ -499,4 +504,4 @@ Below, follows the modification of ```setOnItemClickListener``` in order to send
 
 ```
 
-That's all for lesson 3 !
+
