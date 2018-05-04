@@ -2,7 +2,7 @@
 
 # IHU_Lesson3_material
 
-## 27949ea6b6dffa1dad1deb925c9b024b
+ MyOpenWeatherMapApiKey="27949ea6b6dffa1dad1deb925c9b024b"
 
 ### Recap:
 In lesson 2, we implemented the connection with the remote Weather Rest API and the retrieval of weather data.
