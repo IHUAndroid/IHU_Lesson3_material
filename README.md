@@ -11,7 +11,7 @@ _**But first we are going to make a short deviation to explain the Git workflow.
 
 --------------------------------
 
-##JSON Parsing##
+ ## JSON Parsing ##
 
 Quiz: Parse Out The Max Temp
 
